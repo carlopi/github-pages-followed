@@ -24,4 +24,4 @@ jobs:
     steps:
       # Runs a single command using the runners shell
       - name: Send signal
-        run: curl -X POST -H "Accept: application/vnd.github.v3+json" https://api.github.com/repos/carlopi/github-pages-main/dispatches -d '{"event_type":"event_type"}'
+           run: curl -X POST -H "Accept: application/vnd.github.v3+json" https://api.github.com/repos/carlopi/github-pages-main/dispatches -d '{"event_type":"event_type"}'
